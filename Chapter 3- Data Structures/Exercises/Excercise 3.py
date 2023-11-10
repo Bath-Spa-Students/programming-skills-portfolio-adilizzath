@@ -1,10 +1,12 @@
-car= ["dodge charger","golf R","Rolls royce","GTR R34"]
+# List of car models
+car = ["dodge charger", "golf R", "Rolls royce", "GTR R34"]
 
+# Iterating through the list and printing a statement for each car
 for cars in car:
-    print(f"i would like to own a",cars)
+    print(f"I would like to own a {cars.title()}.")
 
-    #or
-print("The perfect sedan sports car:",car[0])
-print("A sport hatchback:",car[1])
-print("A luxurious car:",car[2])
-print("JDM beast:",car[3])
+# Alternatively, printing individual statements for each car
+print("The perfect sedan sports car:", car[0].title())
+print("A sport hatchback:", car[1].title())
+print("A luxurious car:", car[2].title())
+print("JDM beast:", car[3].title())
