@@ -1,6 +1,10 @@
-a= "mohamed" 
-b= "adil"
-c= "kannayil"
-str=(a,b,c)
-print(str)
+# Three string variables
+a = "mohamed"
+b = "adil"
+c = "kannayil"
 
+# Creating a tuple with the three strings
+str_tuple = (a, b, c)
+
+# Printing the tuple
+print(str_tuple)
