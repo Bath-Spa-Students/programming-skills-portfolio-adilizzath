@@ -1,2 +1,5 @@
+# Importing the sys module
 import sys
-print("user current version:-",sys.version)
+
+# Printing the current version of the Python interpreter
+print("User's current Python version:", sys.version)
