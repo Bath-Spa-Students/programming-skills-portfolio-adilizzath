@@ -1,5 +1,7 @@
-guest=["connor","desmond","shay"]
+# List of guests
+guest = ["connor", "desmond", "shay"]
 
-print("Hey i would like to call you for dinner mr.",guest[0])
-print("Mr."+guest[1]+",you are invited to our dinner")
-print("Mr."+guest[2]+",i would like to call you for dinner")
+# Inviting each guest to dinner with personalized messages
+print("Hey, I would like to invite you for dinner, Mr. " + guest[0].title() + ".")
+print("Mr. " + guest[1].title() + ", you are invited to our dinner.")
+print("Mr. " + guest[2].title() + ", I would like to invite you for dinner.")
